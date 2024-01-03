@@ -1,12 +1,14 @@
-var subject = "Javascriptttt";
+var subject = "English";
 
 function learn(topic) {
-    subject = topic;
+//    let subject = topic;    // let er jonno ei khane ei ta functional scope hishabe kaj korbe. 
     console.log(`I am learning ${topic}`);
-    return;
+   
 }
 
-learn("Javascript")
+ learn("Javascript");
+
 
 console.log(`I know ${subject}`);
+
 
